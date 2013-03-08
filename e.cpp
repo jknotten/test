@@ -1,11 +1,11 @@
 #include <iostream>
 
-void sayhello(std::ostream& output)
+void dosayhello(std::ostream& output)
 {
   output << "Hello, world." << std::endl;
 }
 
 main()
 {
-  sayhello(std::cout);
+  dosayhello(std::cout);
 }
